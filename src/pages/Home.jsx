@@ -1,5 +1,5 @@
 import NavBarHome from "../components/navBarHome"
-import '../styles/Compras.css'
+import '../styles/Home.css'
 
 function Compras(){
     return(

@@ -7,7 +7,7 @@ export default () => {
                     <input type="text" name="search" id="search-input" placeholder="Pesquisar..." />
                     <img src=".\src\assets\lupa.png" alt="lupa-search" />
                 </div>
-                <img src=".\src\assets\avatar.png" alt="profile-icon" id="pfp"/> {/* colocar use navigate depois no 'profile-icon','notification-nav'*/}
+                <img src=".\src\assets\avatar.png" id="img-pfp"/>
             </header>
         </>
     )
