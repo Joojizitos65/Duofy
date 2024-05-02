@@ -1,6 +1,7 @@
 import NavBarHome from "../components/navBarHome";
 import "../styles/Home.css";
 import Produto from "../components/produto";
+import Carousel from "../components/home/Carrossel";
 
 function Home() {
   return (
@@ -19,11 +20,7 @@ function Home() {
           </option>
         </select>
       </div>
-      <div className="container-ofertas">
-        <div className="images">
-          <img src="src\assets\carrosselOfertas\2.png" />
-        </div>
-      </div>
+      <Carousel />
       <section className="home-content">
         <h1>Os favoritos da galera!</h1>
         <div className="container-carrosel">
