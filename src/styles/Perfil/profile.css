@@ -1,0 +1,29 @@
+/* Pagina */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    max-width: 1400px;
+    margin: 0 auto;
+  
+  }
+  
+  
+  body {
+    background-color:  #ffffff;
+    font-family: sans-serif;
+  }
+  /* profile */
+  .ddc{
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  /* reponsive */
+  @media screen and (max-width:600px) {
+    body{
+      background-color:  #ffffff;
+    }
+  }

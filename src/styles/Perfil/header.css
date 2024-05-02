@@ -1,0 +1,31 @@
+/* NAV / Header */
+.hp{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0.25px 0.5px 4px black;
+    width: auto;
+  }
+  .t1{
+    font-size: 40px;
+    color: black;
+    font-weight: bold
+  }
+
+  /* reponsive */
+@media screen and (max-width:600px) {
+    .hp{
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0.25px 0.5px 4px black;
+    }
+    .t1{
+      font-size: 25px;
+      color: black;
+      font-weight: bold
+    }
+  
+  
+  }
