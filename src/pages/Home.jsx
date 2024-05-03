@@ -2,6 +2,7 @@ import NavBarHome from "../components/navBarHome";
 import "../styles/Home.css";
 import Produto from "../components/produto";
 import Carousel from "../components/home/Carrossel";
+import Carrossel2 from "../components/home/Carrossel2";
 
 function Home() {
   return (
@@ -23,15 +24,7 @@ function Home() {
       <Carousel />
       <section className="home-content">
         <h1>Os favoritos da galera!</h1>
-        <div className="container-carrosel">
-          <img src="src\assets\mequi.jpg" />
-          <img src="src\assets\mequi.jpg" />
-          <img src="src\assets\mequi.jpg" />
-          <img src="src\assets\mequi.jpg" />
-          <img src="src\assets\mequi.jpg" />
-          <img src="src\assets\mequi.jpg" />
-          <img src="src\assets\mequi.jpg" />
-        </div>
+        <Carrossel2 />
         <div className="favoritos">
           <h2>Seus estabelecimentos favoritos!!</h2>
           <div className="container-favoritos">

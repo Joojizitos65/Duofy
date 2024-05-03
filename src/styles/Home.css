@@ -4,6 +4,9 @@
   font-family: sans-serif;
 }
 
+body{
+  display: flex;
+}
 
 #root {
   max-width: 1400px;
@@ -149,4 +152,17 @@ h2{
      0px 11px 14.4px rgba(0, 0, 0, 0.111),
      0px 22.6px 29.6px rgba(0, 0, 0, 0.138),
      0px 62px 81px rgba(0, 0, 0, 0.2);
+ }
+
+ .container-carrossel{
+  margin-top: 2%;
+  margin-bottom: 2%;
+ }
+
+ .container-favoritos{
+  display: flex;
+ }
+
+ .container-favoritos img {
+  width: 240px;
  }
