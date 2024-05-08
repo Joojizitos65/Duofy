@@ -1,4 +1,4 @@
-import "../styles/botoes.css"
+import "/src/styles/Perfil/botoes.css"
 export default function Botoes() {
 
     return (

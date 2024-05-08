@@ -1,7 +1,8 @@
-import Botoes from "./Botoes"
-import HeaderP from "./HeaderP"
-import Infos from "./Infos"
-import Dados from "./Dados"
+import Botoes from "../components/perfil/Botoes";
+import Dados from "../components/perfil/Dados";
+import HeaderP from "../components/perfil/HeaderP";
+import Infos from "../components/perfil/Infos";
+
 export default function Profile() {
 
 
