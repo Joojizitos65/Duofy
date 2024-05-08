@@ -28,8 +28,7 @@ function Home() {
         <div className="favoritos">
           <h2>Seus estabelecimentos favoritos!!</h2>
           <div className="container-favoritos">
-            <img src="src\assets\carrosselOfertas\2.png" />
-            <img src="src\assets\carrosselOfertas\2.png" />
+            <img src="src\assets\carrosselOfertas\bkloud.jpg" />
           </div>
         </div>
         <div className="fy">

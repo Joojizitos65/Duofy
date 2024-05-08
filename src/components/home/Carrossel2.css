@@ -1,19 +1,37 @@
 .inner{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     padding: 5px;
+    width: 100%;
+    
 }
 
 .item{
-    height: 10%;
-    width: 10%;
+    height: 100px;
+    width: 100px;
     margin: 10px;
     min-height: 100px;
     min-width: 100px;
+    
 }
 
 .item img{
    height: 100%;
    width: 100%;
+   object-fit: contain;
    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+   box-shadow:
+    0.4px 5px 5px rgba(0, 0, 0, 0.23),
+    0.9px 10.9px 12.8px rgba(0, 0, 0, 0.159),
+    1.9px 21.5px 26px rgba(0, 0, 0, 0.128),
+    4.2px 48.6px 53.7px rgba(0, 0, 0, 0.102),
+    16px 185px 147px rgba(0, 0, 0, 0.071);
+}
+
+@media screen and (max-width:600px){
+    .item img{
+        width:100px;
+        height:auto;
+    }
 }
