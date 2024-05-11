@@ -1,3 +1,9 @@
+import React from "react"
+import { useNavigate } from "react-router-dom"
+import NavPerfil from "./navPerfil"
+
+
+
 export default () => {
     return(
         <>
@@ -7,7 +13,7 @@ export default () => {
                     <input type="text" name="search" id="search-input" placeholder="Pesquisar..." />
                     <img src=".\src\assets\lupa.png" alt="lupa-search" />
                 </div>
-                <img src=".\src\assets\avatar.png" id="img-pfp"/>
+                <NavPerfil />
             </header>
         </>
     )
