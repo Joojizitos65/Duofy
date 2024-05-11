@@ -4,9 +4,6 @@
   font-family: sans-serif;
 }
 
-body{
-  display: flex;
-}
 
 #root {
   max-width: 1400px;
