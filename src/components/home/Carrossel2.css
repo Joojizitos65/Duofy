@@ -8,6 +8,14 @@
     justify-content: center;
 }
 
+.swiperImg :hover{
+    cursor: pointer;
+}
+
+.swiperImg :hover > :hover {
+    opacity: 0.3;
+}
+
 @media screen and (max-width:600px){
     .item img{
         width:100px;

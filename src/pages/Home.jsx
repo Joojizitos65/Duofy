@@ -26,7 +26,7 @@ function Home() {
         <h1 className="Title">Os favoritos da galera!</h1>
         <SwiperTest />
         <div className="favoritos">
-          <h2 className="Title2">Seus estabelecimentos favoritos!!</h2>
+          <h2 className="Title-h2">Seus estabelecimentos favoritos!!</h2>
           <div className="container-favoritos">
             <img src="src\assets\carrosselOfertas\bkloud.jpg" />
           </div>
