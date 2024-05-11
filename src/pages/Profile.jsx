@@ -1,7 +1,8 @@
-import Botoes from "./Botoes"
-import HeaderP from "./HeaderP"
-import Infos from "./Infos"
-import Dados from "./Dados"
+import Botoes from "../components/profile/Botoes";
+import Dados from "../components/profile/Dados";
+import HeaderP from "../components/profile/HeaderP";
+import Infos from "../components/profile/Infos";
+import "../styles/Perfil/profile.css"
 export default function Profile() {
 
 
@@ -9,7 +10,7 @@ export default function Profile() {
         <div>
             <HeaderP />
             <Infos
-                Img={<img className="ftbill" src="bill gates.jpg" />}
+                Img={<img className="ftbill" src="billgates.jpg" />}
                 Nome={`Olá, BILL GATES!`}
                 SaldoD={'Saldo Disponível'}
                 SaldoV={'R$5.000,01'}
@@ -30,4 +31,4 @@ export default function Profile() {
         </div>
     )
 
-}  
+}

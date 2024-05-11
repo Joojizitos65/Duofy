@@ -1,21 +1,26 @@
-import React from "react";
-import { useState } from "react";
-import { Router, Routes, Route, useNavigate } from "react-router-dom";
-import "./App.css";
-import Home from "./pages/Home";
+import { useState } from 'react'
 
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css'
+import Home from './pages/Home'
+import Login from './pages/Login';
+import Profile from './pages/Profile';
+import Conversa from './pages/Conversa';
 
 function App() {
-
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </Router>
+    <Router>
+      <Routes>
+      <Route path='/home' element={<Home/>} />
+      <Route path='/login' element={<Login/>} />
+      <Route path='/perfil' element={<Profile/>} />
+      <Route path='/conversa' element={<Conversa/>} />
+      </Routes>
+    </Router>
+      
     </>
-  );
+  )
 }
-export default App;
+
+export default App
