@@ -1,3 +1,5 @@
+import "./Carrossel2.css";
+
 function Carousel() {
   return (
     <>
@@ -15,7 +17,7 @@ function Carousel() {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                class="d-block w-100"
+                class="d-blockw-100"
                 alt="Carousel Bootstrap First"
                 src="src\assets\carrosselOfertas\2.png"
               />

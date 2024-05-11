@@ -6,7 +6,7 @@ export default () => {
   return (
     <>
       <header className="header-home">
-        <img src="dfy.png" alt="logo" id="logo" />
+        <img src="dfy.png" alt="logo" id="logo"  />
         <div className="container-search">
           <input
             type="text"

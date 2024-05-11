@@ -15,10 +15,27 @@
 .swiperImg :hover > :hover {
     opacity: 0.3;
 }
+.d-blockw-100{
+    width: 99vw;
+}
+.carousel-item active{
+    opacity: 1;
+}
 
 @media screen and (max-width:600px){
-    .item img{
-        width:100px;
-        height:auto;
+    .swiperImg{
+        width:70px;
+        
     }
-}
+    .swiperContainer{
+        margin-left: 20px;
+        
+    }
+    h1{
+        font-size: medium;
+    }
+   .carousel-item active{
+    display: flex;
+    align-items: flex-end;
+   }
+    }

@@ -24,10 +24,11 @@ body{
 
 /*CSS do navBar da home*/
 .header-home {
-  width: 100vw;
+  width: 99vw;
   display: flex;
   position: sticky;
-  justify-content: space-between;
+  gap:5px ;
+  justify-content: space-evenly;
   padding: 25px;
   align-items: center;
   box-shadow:
@@ -37,6 +38,10 @@ body{
   0px 22.8px 24.6px -9px rgba(0, 0, 0, 0.042),
   0px 42.6px 46px -9px rgba(0, 0, 0, 0.05),
   0px 102px 110px -9px rgba(0, 0, 0, 0.07);
+}
+
+.perfil{
+opacity: 1;
 }
 
 .container-search {
@@ -60,6 +65,7 @@ body{
   width: 32px;
   height: 32px;
   object-fit: cover;
+  
 }
 
 #img-pfp {
@@ -77,6 +83,7 @@ body{
   height: 7.5vh;
   width: 7.5vh;
   border-radius: 42% 16% 42% 19%  / 47% 12% 44% 19%;
+  display: flex;
 }
 
 #search{
@@ -133,6 +140,7 @@ option :hover{
 
 .Title {
   font-family: 'Mochiy';
+  font-size: 24px;
 }
 
 .Title-h2{
@@ -202,12 +210,22 @@ option :hover{
   margin-top: 20px;
   margin-bottom: 20px;
  }
+ .fy{
+  width:100%;
+ }
 
  @media screen and (max-width: 600px){
+  #root{
+    margin: 0;
+    max-width: 100vw;
+  }
 
   .container-carrossel{
-    margin: 4vw;
-    width: 100vw;
+    margin: 0;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+    width: 99vw;
+    
    }
 
    .container-carrossel2{
@@ -215,15 +233,34 @@ option :hover{
     width: 100vh;
     overflow: hidden;
    }
-  #root{
-    margin:20px;
+
+  .produto{
+    width: 100px;
+    align-items: center;
+    margin-right: 50px;
   }
   .produto img{
-    height: 20vh;
-  }
-  .produto{
-    width: 30vw;
+    width: 70px;
     height: auto;
   }
+  .name-produto{
+    font-size:15px;
+  }
+  .price-product{
+    font-size:15px;
+  }
+  .container-produtos{
+   display: flex;
+   justify-content: start;
+   }
+   .Title-h2{
+font-size: large;
+   }
+   .Title{
+    font-size: large;
+   }
+body{
+ padding:0; 
+ margin: 0;
  }
-
+ }

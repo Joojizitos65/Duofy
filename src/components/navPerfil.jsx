@@ -7,9 +7,9 @@ function NavPerfil() {
   return (
     <>
       <img
-        src="./perfil.png"
+        src="./perfil.png" className="perfil1"
         onClick={() => navigate("/perfil")}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer" }} 
       />
     </>
   );

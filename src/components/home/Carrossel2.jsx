@@ -18,24 +18,27 @@ import "swiper/css";
 function SwiperTest() {
   return (
     <>
-      <Swiper
-        spaceBetween={5}
-        slidesPerView={7}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-        <SwiperSlide className="swiperContainer"><img src={image1} className="swiperImg" /></SwiperSlide>
-        <SwiperSlide className="swiperContainer"><img src={image2} className="swiperImg" /></SwiperSlide>
-        <SwiperSlide className="swiperContainer"><img src={image3} className="swiperImg" /></SwiperSlide>
-        <SwiperSlide className="swiperContainer"><img src={image4} className="swiperImg" /></SwiperSlide>
-        <SwiperSlide className="swiperContainer"><img src={image5} className="swiperImg" /></SwiperSlide>
-        <SwiperSlide className="swiperContainer"><img src={image6} className="swiperImg" /></SwiperSlide>
-        <SwiperSlide className="swiperContainer"><img src={image7} className="swiperImg" /></SwiperSlide>
-        <SwiperSlide className="swiperContainer"><img src={image8} className="swiperImg" /></SwiperSlide>
-        <SwiperSlide className="swiperContainer"><img src={image9} className="swiperImg" /></SwiperSlide>
-        <SwiperSlide className="swiperContainer"><img src={image10} className="swiperImg" /></SwiperSlide>
+      
+        <Swiper
+          spaceBetween={5}
+          slidesPerView={7}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
 
-      </Swiper>
+          <SwiperSlide className="swiperContainer"><img src={image1} className="swiperImg" /></SwiperSlide>
+          <SwiperSlide className="swiperContainer"><img src={image2} className="swiperImg" /></SwiperSlide>
+          <SwiperSlide className="swiperContainer"><img src={image3} className="swiperImg" /></SwiperSlide>
+          <SwiperSlide className="swiperContainer"><img src={image4} className="swiperImg" /></SwiperSlide>
+          <SwiperSlide className="swiperContainer"><img src={image5} className="swiperImg" /></SwiperSlide>
+          <SwiperSlide className="swiperContainer"><img src={image6} className="swiperImg" /></SwiperSlide>
+          <SwiperSlide className="swiperContainer"><img src={image7} className="swiperImg" /></SwiperSlide>
+          <SwiperSlide className="swiperContainer"><img src={image8} className="swiperImg" /></SwiperSlide>
+          <SwiperSlide className="swiperContainer"><img src={image9} className="swiperImg" /></SwiperSlide>
+          <SwiperSlide className="swiperContainer"><img src={image10} className="swiperImg" /></SwiperSlide>
+
+        </Swiper>
+      
     </>
   );
 }
