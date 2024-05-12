@@ -24,12 +24,11 @@ body{
 
 /*CSS do navBar da home*/
 .header-home {
-  width: 99vw;
+  width: 100vw;
   display: flex;
   position: sticky;
-  gap:5px ;
-  justify-content: space-evenly;
-  padding: 25px;
+  justify-content: space-between;
+  padding: 2vh;
   align-items: center;
   box-shadow:
   0px 2.8px 3px -9px rgba(0, 0, 0, 0.02),
@@ -53,7 +52,7 @@ opacity: 1;
 }
 
 .container-search input {
-  width: 50vw;
+  width: 45vw;
   background-color: #d9d9d9;
   border: none;
   border-radius: 4px;
@@ -62,10 +61,9 @@ opacity: 1;
 }
 
 .header-home img {
-  width: 32px;
-  height: 32px;
+  width: 5vh;
+  height: 5vh;
   object-fit: cover;
-  
 }
 
 #img-pfp {
@@ -80,8 +78,8 @@ opacity: 1;
 }
 
 #logo{
-  height: 7.5vh;
-  width: 7.5vh;
+  height: 7vh;
+  width: 7vh;
   border-radius: 42% 16% 42% 19%  / 47% 12% 44% 19%;
   display: flex;
 }
@@ -107,7 +105,7 @@ opacity: 1;
 .container-endereco{
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 2vh;
 }
 
 #endereco-selecionar{
@@ -152,15 +150,26 @@ option :hover{
 
 .produto {
   display: flex;
-  
+  align-items: center;
+  justify-content: center;
+  flex-basis: calc(27% - 10px);
+  margin: 5px;
+  border:#d9d9d9 2px solid;
+  border-radius: 20px;
+  box-shadow:
+  0px 7px 3px -4px rgba(0, 0, 0, 0.07),
+  0px 19.3px 8.4px -4px rgba(0, 0, 0, 0.046),
+  0px 46.4px 20.2px -4px rgba(0, 0, 0, 0.035),
+  0px 154px 67px -4px rgba(0, 0, 0, 0.024)
+;
  }
  
  .info{
-    padding-left: 30px;
+    padding-left: 2vw;
  }
  
  .price-product {
-   font-size: 30px;
+   font-size: 26px;
    color: grey;
    
  }
@@ -175,7 +184,7 @@ option :hover{
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 2vh;
   align-content: space-around;
   justify-content: space-evenly;
   align-items: center;
@@ -235,9 +244,8 @@ option :hover{
    }
 
   .produto{
-    width: 100px;
+    flex-basis: calc(40vw - 10px);
     align-items: center;
-    margin-right: 50px;
   }
   .produto img{
     width: 70px;
@@ -251,7 +259,6 @@ option :hover{
   }
   .container-produtos{
    display: flex;
-   justify-content: start;
    }
    .Title-h2{
 font-size: large;
