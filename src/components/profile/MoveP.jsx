@@ -7,14 +7,14 @@ function MovePage() {
     return (
         <div className="boxbts">
             <ul>
-                <li onClick={() => navigate('/')}>
+                <li onClick={() => navigate('/home')}>
                     <img className="ft3" src="Local.png" />
                     <div className="divli1">
                         <strong className="divli2"> Endereço </strong>
                         <span className="divli3"> Meus endereços cadastrados. </span>
                     </div>
                 </li>
-                <li>
+                <li onClick={() => navigate('/conversa')}>
                     <img className="ft3" src="chat.png" />
                     <div className="divli1">
                         <strong className="divli2"> Conversas </strong>

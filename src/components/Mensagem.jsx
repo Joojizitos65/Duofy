@@ -1,4 +1,4 @@
-import '../styles/Conversa.css'
+import '../styles/style_conversa.css'
 export default function Mensagem(){
     return(
        <div className="balao">
