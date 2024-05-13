@@ -10,7 +10,7 @@ export default function Profile() {
         <div>
             <HeaderP />
             <Infos
-                Img={<img className="ftbill" src="bill gates.jpg" />}
+                Img={<img className="ftbill" src="billgates.jpg" />}
                 Nome={`Olá, BILL GATES!`}
                 SaldoD={'Saldo Disponível'}
                 SaldoV={'R$5.000,01'}
