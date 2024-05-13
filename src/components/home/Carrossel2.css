@@ -2,19 +2,10 @@
     border-radius: 50% 50% 50% 50%;
     
 }
-
-.swiperContainer{
-    display: flex;
-    justify-content: center;
-}
-
 .swiperImg :hover{
     cursor: pointer;
 }
 
-.swiperImg :hover > :hover {
-    opacity: 0.3;
-}
 .d-blockw-100{
     width: 99vw;
 }
