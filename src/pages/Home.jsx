@@ -2,11 +2,13 @@ import NavBarHome from "../components/navBarHome";
 import "../styles/Home.css";
 import Produto from "../components/produto";
 import Carousel from "../components/home/Carrossel";
-import Carrossel2 from "../components/home/Carrossel2";
+import SwiperTest from "../components/home/Carrossel2";
+import BottomNav from "../components/ButtonNavigation/BottomNav";
 
 function Home() {
   return (
     <>
+          <BottomNav />
       <NavBarHome />
       <div className="container-endereco">
         <select name="endereco" id="endereco-selecionar">
@@ -23,17 +25,16 @@ function Home() {
       </div>
       <Carousel />
       <section className="home-content">
-        <h1>Os favoritos da galera!</h1>
-        <Carrossel2 />
+        <h1 className="Title">Os favoritos da galera!</h1>
+        <SwiperTest />
         <div className="favoritos">
-          <h2>Seus estabelecimentos favoritos!!</h2>
+          <h2 className="Title-h2">Seus estabelecimentos favoritos!!</h2>
           <div className="container-favoritos">
-            <img src="src\assets\carrosselOfertas\2.png" />
-            <img src="src\assets\carrosselOfertas\2.png" />
+            <img src="src\assets\carrosselOfertas\bkloud.jpg" />
           </div>
         </div>
         <div className="fy">
-          <h1>Escolhidos para você</h1>
+          <h1 className="Title">Escolhidos para você</h1>
           <div className="container-produtos">
             <Produto />
             <Produto />
@@ -41,6 +42,9 @@ function Home() {
             <Produto />
             <Produto />
             <Produto />
+          </div>
+          <div className="espaço"> 
+
           </div>
         </div>
       </section>

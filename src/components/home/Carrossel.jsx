@@ -1,3 +1,5 @@
+import "./Carrossel2.css";
+
 function Carousel() {
   return (
     <>
@@ -8,14 +10,15 @@ function Carousel() {
               data-slide-to="0"
               data-target="#carousel-315088"
               class="active"
+              className="indicators"
             ></li>
-            <li data-slide-to="1" data-target="#carousel-315088"></li>
-            <li data-slide-to="2" data-target="#carousel-315088"></li>
+            <li data-slide-to="1" data-target="#carousel-315088" className="indicators"></li>
+            <li data-slide-to="2" data-target="#carousel-315088" className="indicators"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                class="d-block w-100"
+                class="d-blockw-100"
                 alt="Carousel Bootstrap First"
                 src="src\assets\carrosselOfertas\2.png"
               />

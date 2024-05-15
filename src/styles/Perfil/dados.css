@@ -8,13 +8,22 @@
   flex-direction: column;
   margin-bottom: 8px;
 }
-.nf{
-    font-size: 20px;
-    margin-left: 10px;
-    margin-bottom: 8px;
-    font-weight: bold; 
+.nf {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
 }
 
+.ddc{
+  text-align: center;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 28px;
+  color: black;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
+}
 
 .boxN{
   display: flex;
@@ -50,7 +59,7 @@
  /* reponsive */
  @media screen and (max-width:600px) {
     .dados {
-        padding: 0 15px;
+        padding: 0 10px;
         margin: 0 auto; 
       }
       .boxdados {
@@ -59,17 +68,18 @@
         margin-bottom: 5px;
       }
       .nf {
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 10px;
         margin-bottom: 8px;
-        font-weight: 400; 
+        font-weight: bold;
+        text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
       }
       
       .boxN {
         display: flex;
         flex-direction: row;
         margin-bottom: 15px;
-        gap: 15px; /* Reduzido para melhor adaptação em telas menores */
+        gap: 15px; 
       }
       .dd {
         background-color: #D9D9D9;
@@ -77,7 +87,10 @@
         padding: 12px 15px;
         border-radius: 10px;
         box-shadow: 0.5px 0.5px 5px black;
-        width: 30%; /* Mantido conforme solicitado, considerar % maior se precisar de mais espaço */
+        width: 30%; 
+        height: 40px;
+        display: flex;
+        align-items: center;
       }
       .n {
         background-color: #D9D9D9;
@@ -85,7 +98,10 @@
         padding: 12px 15px;
         border-radius: 10px;
         box-shadow: 0.5px 0.5px 5px black;
-        width: 70%; /* Mantido conforme solicitado */
+        width: 70%; 
+        height: 40px;
+        display: flex;
+        align-items: center;
       }
       
       .pdados {
@@ -94,5 +110,8 @@
         padding: 12px 15px;
         border-radius: 10px;
         box-shadow: 0.5px 0.5px 5px black;
+        height: 40px;
+        display: flex;
+        align-items: center;
       }
     }

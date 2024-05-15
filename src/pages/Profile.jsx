@@ -1,13 +1,15 @@
-import Botoes from "../components/perfil/Botoes";
-import Dados from "../components/perfil/Dados";
-import HeaderP from "../components/perfil/HeaderP";
-import Infos from "../components/perfil/Infos";
-
+import Botoes from "../components/profile/Botoes";
+import Dados from "../components/profile/Dados";
+import HeaderP from "../components/profile/HeaderP";
+import Infos from "../components/profile/Infos";
+import "../styles/Perfil/profile.css"
+import BottomNav from "../components/ButtonNavigation/BottomNav";
 export default function Profile() {
 
 
     return (
         <div>
+            <BottomNav />
             <HeaderP />
             <Infos
                 Img={<img className="ftbill" src="billgates.jpg" />}
@@ -15,10 +17,6 @@ export default function Profile() {
                 SaldoD={'Saldo Disponível'}
                 SaldoV={'R$5.000,01'}
             />
-            <div>
-                <h3 className="ddc">Dados da Conta</h3>
-            </div>
-
             <Dados 
             dtn={"18/08/1955"}
             email={"meuusuario.gmail.com"}
