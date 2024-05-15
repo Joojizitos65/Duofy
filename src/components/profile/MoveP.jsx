@@ -21,7 +21,7 @@ function MovePage() {
                         <span className="divli3"> Meu historico de conversa. </span>
                     </div>
                 </li>
-                <li>
+                <li onClick={() => navigate('/carrinho')}>
                     <img className="ft3" src="card.png" />
                     <div className="divli1">
                         <strong className="divli2"> Pagamentos </strong>

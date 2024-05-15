@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Login from './pages/Login';
 import Profile from './pages/Profile';
 import Conversa from './pages/Conversa';
+import Compras from './pages/Compras';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='/' element={<Login/>} />
       <Route path='/perfil' element={<Profile/>} />
       <Route path='/conversa' element={<Conversa/>} />
+      <Route path='/carrinho' element={<Compras/>} />
       </Routes>
     </Router>
       
