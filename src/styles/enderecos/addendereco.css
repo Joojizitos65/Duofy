@@ -1,0 +1,37 @@
+.meioe{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.boxadd {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: none;
+        cursor: pointer;
+}
+.boxadd:focus{
+    outline: none;
+}
+.iteme {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 5px 0; 
+    flex: 1; /* Faz com que os parágrafos cresçam igualmente para ocupar o espaço disponível */
+    width: 100%; /* Garante que os parágrafos ocupem toda a largura disponível */
+}
+
+#local{
+    width: 30px;
+  }
+
+
+@media screen and (max-width:600px){
+
+    #local{
+        width: 25px;
+      }
+
+  }

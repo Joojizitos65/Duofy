@@ -1,11 +1,12 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function MovePage2() {
-    const navigate = useNavigate(); 
-
-    return (
-        <div className="bottom-nav">
+import '../../styles/navigation/navbarU.css';
+export default function BottomNav(){
+  const navigate = useNavigate();
+  return (
+<div>
+<div className="bottom-nav">
         <div className="nav-item" onClick={() => navigate('/Conversa')}>
           <img src="chatnav.png" alt="Chat" className="icon" />
         </div>
@@ -18,7 +19,6 @@ function MovePage2() {
           <img src="sacolanav.png" alt="Cart" className="icon" />
         </div>
       </div>
-    );
-}
-
-export default MovePage2;
+</div>
+  );
+};

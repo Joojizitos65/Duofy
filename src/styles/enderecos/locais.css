@@ -1,0 +1,100 @@
+.Fundo{
+    background-color: #d1d1d1;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxL{
+    display: flex;
+    margin: 10px;
+    width: 90%;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Imagens */
+.icons{
+
+    margin-right: 10px;
+    width: 30px;
+
+}
+.tripoint {
+    position: absolute;
+    top: 0;
+    right: 0 ;
+    width: 20px;
+    margin: 10px;
+}
+
+/* Informações */
+.local{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    width: 470%;
+    border: 1px solid #000; 
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin: 5px 0; 
+    flex: 1; 
+    width: 100%; 
+}
+
+
+@media screen and (max-width:600px) {
+
+    .Fundo {
+        border-radius: 0; /* Remover bordas arredondadas */
+        padding: 10px;
+    }
+
+    .boxL {
+        width: 100%; /* Utilizar largura total */
+        padding: 10px; /* Reduzir o padding */
+        margin: 5px; /* Reduzir a margem */
+    }
+
+    .icons, .tripoint {
+        width: 20px; /* Reduzir o tamanho das imagens */
+    }
+
+    .local{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .linha {
+        width: 115%; /* Utilizar largura total */
+    }
+
+    .item {
+        font-size: 10px; /* Reduzir o tamanho da fonte */
+    }
+}

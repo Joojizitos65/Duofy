@@ -7,7 +7,7 @@ function MovePage() {
     return (
         <div className="boxbts">
             <ul>
-                <li onClick={() => navigate('/home')}>
+                <li onClick={() => navigate('/enderecos')}>
                     <img className="ft3" src="Local.png" />
                     <div className="divli1">
                         <strong className="divli2"> Endereço </strong>

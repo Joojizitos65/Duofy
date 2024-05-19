@@ -2,7 +2,7 @@ import Produtoscarrinho from '../components/Produtoscarrinho'
 import Headercarrinho from '../components/Headercarrinho'
 import Botaocarrinho from '../components/Botaocarrinho'
 import '../styles/Compras.css'
-import BottomNav from "../components/ButtonNavigation/BottomNav";
+import BottomNav from "../components/navbarU/BottomNav";
 
 
 function Compras(){

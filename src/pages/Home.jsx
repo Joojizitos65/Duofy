@@ -3,7 +3,7 @@ import "../styles/Home.css";
 import Produto from "../components/produto";
 import Carousel from "../components/home/Carrossel";
 import SwiperTest from "../components/home/Carrossel2";
-import BottomNav from "../components/ButtonNavigation/BottomNav";
+import BottomNav from "../components/navbarU/BottomNav";
 
 function Home() {
   return (
