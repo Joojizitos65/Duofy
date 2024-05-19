@@ -2,7 +2,7 @@ import Botoes from "../components/profile/Botoes";
 import Dados from "../components/profile/Dados";
 import HeaderP from "../components/profile/HeaderP";
 import Infos from "../components/profile/Infos";
-import "../styles/perfil/profile.css"
+import "../styles/perfil1/profile.css"
 import BottomNav from "../components/navbarU/BottomNav";
 export default function Profile() {
 

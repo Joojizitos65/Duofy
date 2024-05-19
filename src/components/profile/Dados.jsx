@@ -1,4 +1,4 @@
-import "/src/styles/perfil/dados.css"
+import "/src/styles/perfil1/dados.css"
 export default function Dados({ dtn, email, celulardd, celularn }) {
 
     return (

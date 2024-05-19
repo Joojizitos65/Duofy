@@ -49,10 +49,11 @@
 .content {
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 
 .linha {
-    width: 470%;
+    width: 100%;
     border: 1px solid #000; 
     margin: 0;
     padding: 0;
@@ -71,18 +72,18 @@
 @media screen and (max-width:600px) {
 
     .Fundo {
-        border-radius: 0; /* Remover bordas arredondadas */
+        border-radius: 0; 
         padding: 10px;
     }
 
     .boxL {
-        width: 100%; /* Utilizar largura total */
-        padding: 10px; /* Reduzir o padding */
-        margin: 5px; /* Reduzir a margem */
+        width: 100%; 
+        padding: 10px; 
+        margin: 5px; 
     }
 
     .icons, .tripoint {
-        width: 20px; /* Reduzir o tamanho das imagens */
+        width: 20px; 
     }
 
     .local{
@@ -91,10 +92,15 @@
     }
 
     .linha {
-        width: 115%; /* Utilizar largura total */
+        width: 100%; 
     }
 
     .item {
-        font-size: 10px; /* Reduzir o tamanho da fonte */
+        font-size: 10px; 
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 82%;
     }
 }

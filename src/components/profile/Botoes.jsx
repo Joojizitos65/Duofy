@@ -1,4 +1,4 @@
-import "/src/styles/perfil/botoes.css"
+import "/src/styles/perfil1/botoes.css"
 import React from "react"
 import MovePage from "./MoveP"
 

@@ -19,8 +19,8 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin: 5px 0; 
-    flex: 1; /* Faz com que os parágrafos cresçam igualmente para ocupar o espaço disponível */
-    width: 100%; /* Garante que os parágrafos ocupem toda a largura disponível */
+    flex: 1; 
+    width: 100%; 
 }
 
 #local{
