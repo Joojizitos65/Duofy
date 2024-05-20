@@ -1,4 +1,4 @@
-import "/src/styles/perfil/header.css"
+import "/src/styles/perfil1/header.css"
 export default function HeaderP() {
 
     return (

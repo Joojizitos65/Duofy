@@ -20,6 +20,14 @@ function Login() {
     }
   }
   useEffect(() => {
+    document.body.style.backgroundImage = "url(./public/fundo.PNG)";
+
+    return () => {
+      document.body.style.backgroundImage = "";
+    };
+  }, []);
+
+  useEffect(() => {
     if (error) {
       setTimeout(() => {
         setError('')

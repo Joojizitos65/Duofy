@@ -1,4 +1,4 @@
-import "/src/styles/perfil/infos.css"
+import "/src/styles/perfil1/infos.css"
 
 export default function Infos({ Img, Nome, SaldoD, SaldoV }) {
 

@@ -1,19 +1,37 @@
-.inner{
+.swiperImg{
+    border-radius: 50% 50% 50% 50%;
+    
+}
+.swiperImg :hover{
+    cursor: pointer;
+}
+
+.d-blockw-100{
+    width: 99vw;
+}
+.carousel-item active{
+    opacity: 1;
+}
+
+@media screen and (max-width:600px){
+    .swiperImg{
+        width:70px;
+        
+    }
+    .swiperContainer{
+        margin-left: 20px;
+        
+    }
+    h1{
+        font-size: medium;
+    }
+   .carousel-item active{
+    display: flex;
+    align-items: flex-end;
+   }
+   .carousel-indicators{
+    bottom: 2px;
     display: flex;
     align-items: center;
-    padding: 5px;
-}
-
-.item{
-    height: 10%;
-    width: 10%;
-    margin: 10px;
-    min-height: 100px;
-    min-width: 100px;
-}
-
-.item img{
-   height: 100%;
-   width: 100%;
-   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
-}
+   }
+    }

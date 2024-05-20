@@ -1,9 +1,12 @@
-import "/src/styles/perfil/dados.css"
+import "/src/styles/perfil1/dados.css"
 export default function Dados({ dtn, email, celulardd, celularn }) {
 
     return (
 
         <div className="dados">
+            <article>
+                <h3 className="ddc">Dados da Conta</h3>
+            </article>
             <div className="boxdados">
                 <strong className="nf"> Data de Nascimento </strong>
                 <span className="pdados"> {dtn} </span>
