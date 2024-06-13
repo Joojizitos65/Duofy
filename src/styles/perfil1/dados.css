@@ -1,0 +1,117 @@
+/* Dados no geral da conta (n sei fazer)("aprendi") */
+.dados{
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+.boxdados{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+.nf {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ddc{
+  text-align: center;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 28px;
+  color: black;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.boxN{
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 15px;
+  gap: 20px;
+}
+.dd{
+  background-color: #D9D9D9;
+  color: #515151;
+  padding: 12px 15px;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 5px black;
+  width: 30%;
+}
+.n{
+  background-color: #D9D9D9;
+  color: #515151;
+  padding: 12px 15px;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 5px black;
+  width: 70%;
+}
+
+.pdados{
+  background-color: #D9D9D9;
+  color: #515151;
+  padding: 12px 15px;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 5px black;
+}
+
+ /* reponsive */
+ @media screen and (max-width:600px) {
+    .dados {
+        padding: 0 10px;
+        margin: 0 auto; 
+      }
+      .boxdados {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+      }
+      .nf {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-bottom: 8px;
+        font-weight: bold;
+        text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
+      }
+      
+      .boxN {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+        gap: 15px; 
+      }
+      .dd {
+        background-color: #D9D9D9;
+        color: #515151;
+        padding: 12px 15px;
+        border-radius: 10px;
+        box-shadow: 0.5px 0.5px 5px black;
+        width: 30%; 
+        height: 40px;
+        display: flex;
+        align-items: center;
+      }
+      .n {
+        background-color: #D9D9D9;
+        color: #515151;
+        padding: 12px 15px;
+        border-radius: 10px;
+        box-shadow: 0.5px 0.5px 5px black;
+        width: 70%; 
+        height: 40px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .pdados {
+        background-color: #D9D9D9;
+        color: #515151;
+        padding: 12px 15px;
+        border-radius: 10px;
+        box-shadow: 0.5px 0.5px 5px black;
+        height: 40px;
+        display: flex;
+        align-items: center;
+      }
+    }

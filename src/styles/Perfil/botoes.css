@@ -1,0 +1,126 @@
+/* box de botões */
+.boxbts {
+    padding: 0 15px;
+    margin: 0 auto; 
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 8px;
+    cursor: pointer;
+    justify-content: center; 
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+  }
+  .ft3{
+  width: 25px;
+  }
+
+  
+
+  .divli1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .divli2{
+    margin-bottom: 5px;
+      font-weight: bold;
+  }
+  .divli3{
+    color: #373737;
+  }
+  
+
+
+  .ajuda{
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 4px black;
+    padding: 8px 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+  }
+  .ajuda strong{
+    margin-left:50px;
+  }
+
+  .ft4{
+        margin-right: 15px;
+        width: 30px;
+  }
+
+  .boxb{
+    display: flex;    
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+  .excluir{
+        background-color: #02A0AD;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        width: 70%; 
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: 15px;
+        font-family: monospace;
+  }
+  
+   /* reponsive */
+@media screen and (max-width:600px) {
+    .boxbts {
+        padding: 0 10px;
+        margin: 0 auto; 
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      li {
+        border-radius: 10px;
+        height: 55px;
+      }
+      .ft3{
+      width: 25px;
+      }
+    
+    
+      .divli1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+      }
+      .divli2{
+        margin-bottom: 5px;
+          font-weight: 400;
+      }
+      .divli3{
+        color: #373737;
+      }
+      
+    
+    
+      .ajuda{
+        cursor: pointer;
+        height: 40px;
+      }
+      .ajuda strong{
+        margin-left:50px; 
+      }
+  
+  }
