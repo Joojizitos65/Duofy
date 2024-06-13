@@ -21,7 +21,7 @@ function Home() {
           </option>
         </select>
       </div>
-      <Carousel />
+      <Carousel img1={'src/assets/carrosselOfertas/2.png'} img2={'src/assets/carrosselOfertas/3.png'} img3={'src/assets/carrosselOfertas/4.png'}/>
       <section className="home-content">
         <h1 className="Title">Os favoritos da galera!</h1>
         <SwiperTest />

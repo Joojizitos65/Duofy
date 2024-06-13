@@ -1,6 +1,6 @@
 import "./Carrossel2.css";
 
-function Carousel() {
+function Carousel( {img1, img2 , img3}) {
   return (
     <>
       <div className="container-carrossel">
@@ -18,23 +18,23 @@ function Carousel() {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                class="d-blockw-100"
+                class="d-block"
                 alt="Carousel Bootstrap First"
-                src="src\assets\carrosselOfertas\2.png"
+                src={img1}
               />
             </div>
             <div class="carousel-item">
               <img
-                class="d-block w-100"
+                class="d-block "
                 alt="Carousel Bootstrap Third"
-                src="src\assets\carrosselOfertas\3.png"
+                src={img2}
               />
             </div>
             <div class="carousel-item">
               <img
-                class="d-block w-100"
+                class="d-block"
                 alt="Carousel Bootstrap Third"
-                src="src\assets\carrosselOfertas\4.png"
+                src={img3}
               />
             </div>
           </div>{" "}

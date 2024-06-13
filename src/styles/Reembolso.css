@@ -1,0 +1,60 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    align-self: center;
+    margin-top: 20px;
+}
+
+.pedidos{
+    width: 90vw;
+}
+
+#pativo{
+    font-size: small;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.pedido{
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pedido img {
+    width: 20%;
+    height: 12%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    width: 80vw;
+}
+
+.nome-restaurante{
+    font-size: 4vh;
+}
+
+.avaliacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.avaliacao p{
+    font-weight:lighter;
+    font-size: 2vh; 
+}
+
+.avaliacao img{
+    height: 5%;
+    width: 5%;
+}

@@ -7,6 +7,8 @@ import Login from './pages/Login';
 import Profile from './pages/Profile';
 import Conversa from './pages/Conversa';
 import Compras from './pages/Compras';
+import Estabelecimento from './pages/Estabelecimento';
+import Reembolso from './pages/Reembolso';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Route path='/perfil' element={<Profile/>} />
       <Route path='/conversa' element={<Conversa/>} />
       <Route path='/carrinho' element={<Compras/>} />
+      <Route path='/estabelecimento' element={<Estabelecimento/>} />
+      <Route path='/reembolso' element={<Reembolso/>} />
       </Routes>
     </Router>
       
