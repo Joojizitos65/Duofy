@@ -51,44 +51,12 @@
 
 .nome-restaurante {
   font-size: 4vh;
+  font-weight: 600;
 }
 
-.avaliacao {
+.input-boxes {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 60vw;
-}
-.avaliacao p {
-  font-weight: lighter;
-  font-size: 2vh;
-}
-
-.avaliacao img {
-  height: 5%;
-  width: 5%;
-}
-
-.estrelas{
-  display: flex;
-  width: 5vw;
-}
-
-.estrelas img{
-  height: 1vw;
-  width: 1vw;
-}
-
-.itens {
-  border-top: 1px solid black;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.item {
-  color: #626262;
-  font-weight: lighter;
+  flex-direction: column;
 }
 
 .price {
@@ -105,7 +73,40 @@
     0px 35.1px 44.3px -5px rgba(0, 0, 0, 0.028),
     0px 84px 106px -5px rgba(0, 0, 0, 0.02);
   color: rgb(245, 245, 245);
-  width: 15vw;
+  width: 20vw;
+  font-size: 1.5vw;
   border-radius: 20px;
   font-weight: bold;
+  margin-top: 20px;
+}
+
+.input-boxes p{
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.file-container{
+  display: flex;
+  flex-direction: column;
+  border: #ccc 1px solid;
+  border-radius: 10px;
+  height: 40vh;
+  padding: 10px;
+}
+
+#motivo-texto {
+  height: 10vh;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.img-preview{
+  display: flex;
+}
+
+.img-preview img{
+  object-fit: cover;
+  width: 25vh;
+  height: 25vh;
 }

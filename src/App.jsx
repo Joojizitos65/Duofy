@@ -9,6 +9,7 @@ import Conversa from './pages/Conversa';
 import Compras from './pages/Compras';
 import Estabelecimento from './pages/Estabelecimento';
 import Reembolso from './pages/Reembolso';
+import ReembolsoTicket from './pages/Reembolso-ticket';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path='/carrinho' element={<Compras/>} />
       <Route path='/estabelecimento' element={<Estabelecimento/>} />
       <Route path='/reembolso' element={<Reembolso/>} />
+      <Route path='/reembolso-ticket' element={<ReembolsoTicket/>} />
       </Routes>
     </Router>
       

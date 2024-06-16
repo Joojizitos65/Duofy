@@ -1,5 +1,7 @@
 import "../styles/Reembolso.css";
+import { useNavigate } from "react-router-dom";
 export default function Reembolso() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="page">
@@ -8,7 +10,7 @@ export default function Reembolso() {
           <p id="pativo">Pedidos Ativos</p>
           <div className="pedido">
             <div className="content">
-              <img src="./src/assets/logo/4.jpg" alt="burguer king" />
+              <img src="./src/assets/logo/burger-king.svg" alt="burguer king" />
               <div className="info-box">
                 <h2 className="nome-restaurante">Burguer King</h2>
                 <div className="avaliacao">
@@ -24,10 +26,10 @@ export default function Reembolso() {
               </div>
             </div>
             <div className="itens">
-              <p>Hamburguer</p>
-              <p>R$ 29,90</p>
+              <p className="item">Hamburguer</p>
+              <p className="price">R$ 29,90</p>
             </div>
-            <button>Solicitar Reembolso</button>
+            <button className="btn" onClick={() => navigate('/reembolso-ticket')}>Solicitar Reembolso</button>
           </div>
         </div>
       </div>
