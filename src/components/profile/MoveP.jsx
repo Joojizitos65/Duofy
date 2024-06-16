@@ -28,7 +28,7 @@ function MovePage() {
                         <span className="divli3"> Meu saldo e cartões.  </span>
                     </div>
                 </li>
-                <li>
+                <li onClick={() => navigate('/avaliacao')}>
                     <img className="ft3" src="noti.png" />
                     <div className="divli1">
                         <strong className="divli2"> Notificações </strong>
@@ -40,6 +40,13 @@ function MovePage() {
                     <div className="divli1">
                         <strong className="divli2"> Autenticação de Dois Fatores </strong>
                         <span className="divli3"> Aumente a segurança da sua conta. </span>
+                    </div>
+                </li>
+                <li onClick={() => navigate('/historico')}>
+                    <img className='ft3' src='historico.png'/>
+                    <div className='divli1'> 
+                        <strong className='divli2'>Meus Pedidos</strong>
+                        <span className='divli3'>Acesse o histórico e avaliações dos seus pedidos.</span>
                     </div>
                 </li>
             </ul>

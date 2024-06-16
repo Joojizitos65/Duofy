@@ -1,0 +1,74 @@
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+.produto{
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+}
+.mainPedidoH{
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+}
+.produto img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.mainPedidoH img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.confirmar{
+    background-color: #d6dbd6;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.cancelar{
+    background-color: #d6dbd6; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.confirmar:hover{
+    background-color: green;
+    color: rgb(0, 0, 0);
+}
+
+.cancelar:hover{
+    background-color: red;
+    color: rgb(0, 0, 0);
+}
+@media (max-width: 600px) {
+    .produto {
+        flex-direction: column;
+    }
+
+    .produto button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
