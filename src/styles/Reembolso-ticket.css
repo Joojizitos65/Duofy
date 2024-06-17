@@ -1,0 +1,112 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @font-face {
+    font-family: "Kadwa";
+    src: local(Kadwa-Regular), url("src/assets/Kadwa-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Kadwa-bold";
+    src: local(Kadwa-bold), url("src/assets/Kadwa-bold.ttf");
+  }
+  
+  .title {
+    align-self: center;
+    margin-top: 20px;
+    font-family: "Kadwa-bold";
+  }
+  
+  .pedidos {
+    width: 80vw;
+  }
+  
+  #pativo {
+    font-size: small;
+    font-weight: bold;
+    font-family: arial;
+  }
+  
+  .pedido {
+    display: flex;
+    flex-direction: column;
+    background-color: #edeaea;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .pedido img {
+    width: 20%;
+    height: 12%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .content {
+    display: flex;
+    width: 70vw;
+  }
+  
+  .nome-restaurante {
+    font-size: 4vh;
+    font-weight: 600;
+  }
+  
+  .input-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .btn {
+    background-color: #510000;
+    box-shadow: 0px 2.3px 2.9px -5px rgba(0, 0, 0, 0.07),
+      0px 5.6px 7px -5px rgba(0, 0, 0, 0.05),
+      0px 10.5px 13.3px -5px rgba(0, 0, 0, 0.042),
+      0px 18.8px 23.7px -5px rgba(0, 0, 0, 0.035),
+      0px 35.1px 44.3px -5px rgba(0, 0, 0, 0.028),
+      0px 84px 106px -5px rgba(0, 0, 0, 0.02);
+    color: rgb(245, 245, 245);
+    width: 20vw;
+    font-size: 1.5vw;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .input-boxes p{
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+  
+  .file-container{
+    display: flex;
+    flex-direction: column;
+    border: #ccc 1px solid;
+    border-radius: 10px;
+    height: 40vh;
+    padding: 10px;
+  }
+  
+  #motivo-texto {
+    height: 10vh;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  .img-preview{
+    display: flex;
+  }
+  
+  .img-preview img{
+    object-fit: cover;
+    width: 25vh;
+    height: 25vh;
+  }

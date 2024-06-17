@@ -13,7 +13,14 @@ export default function Enderecos() {
             <BottomNav />
             <HeaderE />
             <BarraDePesquisa />
-            <AddEndereco />
+            <AddEndereco 
+            Nome ={'NOME'}
+            InfoR ={'RUA'}
+            InfoN ={'NUMERO'}
+            InfoB ={'BAIRRO'}
+            InfoCEP ={'CEP'}
+            Complemento ={'COMPLEMENTO'}
+            />
             <Locais 
             NomeL={"Casa"}
             InfoL={"R. Docilicio Luz, 75 - São Luiz, São José - SC, 88106-800"}

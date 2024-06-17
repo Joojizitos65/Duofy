@@ -3,12 +3,10 @@ import "../styles/Home.css";
 import Produto from "../components/produto";
 import Carousel from "../components/home/Carrossel";
 import SwiperTest from "../components/home/Carrossel2";
-import BottomNav from "../components/navbarU/BottomNav";
 
 function Home() {
   return (
     <>
-          <BottomNav />
       <NavBarHome />
       <div className="container-endereco">
         <select name="endereco" id="endereco-selecionar">
@@ -23,7 +21,7 @@ function Home() {
           </option>
         </select>
       </div>
-      <Carousel />
+      <Carousel img1={'src/assets/carrosselOfertas/2.png'} img2={'src/assets/carrosselOfertas/3.png'} img3={'src/assets/carrosselOfertas/4.png'}/>
       <section className="home-content">
         <h1 className="Title">Os favoritos da galera!</h1>
         <SwiperTest />
@@ -42,9 +40,6 @@ function Home() {
             <Produto />
             <Produto />
             <Produto />
-          </div>
-          <div className="espaço"> 
-
           </div>
         </div>
       </section>

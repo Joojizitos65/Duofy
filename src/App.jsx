@@ -23,6 +23,9 @@ function App() {
       <Route path='/enderecos' element={<Enderecos/>} />
       <Route path='/historico' element={<Historico/>} />
       <Route path='/avaliacao' element={<Avaliacoes/>} />
+      <Route path='/estabelecimento' element={<Estabelecimento/>} />
+      <Route path='/reembolso' element={<Reembolso/>} />
+      <Route path='/reembolso-ticket' element={<ReembolsoTicket/>} />
       </Routes>
     </Router>
       
