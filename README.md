@@ -1,2 +1,3 @@
-![Duofy Apresentação](https://github.com/Joojizitos65/Duofy/assets/129192514/658ca260-acdb-418d-97f0-119c91890d11) Doufy - "DuoForYou"
+![Duofy Apresentação (1)](https://github.com/Joojizitos65/Duofy/assets/129192514/62e708eb-dc13-49c5-b743-6b077f15ff86) Doufy - "DuoForYou"
+
    
