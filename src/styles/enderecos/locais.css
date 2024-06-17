@@ -1,5 +1,17 @@
+dialog {
+    border: 2px solid black;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+  }
+  
+  dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
 .Fundo{
-    background-color: #d1d1d1;
+
     display: flex;
     margin-top: 20px;
     border-top-right-radius: 10px;
@@ -8,7 +20,7 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-    height: 63.8%;
+
 }
 
 .boxL{
@@ -18,9 +30,10 @@
     position: relative;
     align-items: center;
     justify-content: flex-start;
-    background-color: white;
+    background-color: #d1d1d1;
     padding: 20px;
     border-radius: 10px;
+    border: 2px solid black;
 }
 
 /* Imagens */
@@ -74,7 +87,6 @@
     .Fundo {
         border-radius: 0; 
         padding: 10px;
-        height: 73%;
     }
 
     .boxL {
