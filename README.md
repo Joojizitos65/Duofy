@@ -1,1 +1,2 @@
-# Duofy
+Doufy - "DuoForYou"
+   
