@@ -10,6 +10,10 @@ import Compras from './pages/Compras';
 import Enderecos from './pages/Enderecos';
 import Historico from './pages/Historico';
 import Avaliacoes from './pages/Avaliacoes';
+import Estabelecimento from './pages/Estabelecimento';
+import Reembolso  from './pages/Reembolso'
+import ReembolsoTicket from './pages/Reembolso-ticket'
+import Pagamentos from './pages/Pagamentos'
 function App() {
   return (
     <>
@@ -26,6 +30,8 @@ function App() {
       <Route path='/estabelecimento' element={<Estabelecimento/>} />
       <Route path='/reembolso' element={<Reembolso/>} />
       <Route path='/reembolso-ticket' element={<ReembolsoTicket/>} />
+      <Route path='/pagamentos' element={<Pagamentos/>} />
+
       </Routes>
     </Router>
       

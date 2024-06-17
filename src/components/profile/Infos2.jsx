@@ -12,7 +12,7 @@ export default function Infos2({ Img, Nome, SaldoD, SaldoV }) {
                     <h2 className="info3">{SaldoD}</h2>
                     <p>{SaldoV}</p>
                 </div>
-                <div className="valor">
+                <div className="valor1">
                     <h4 className="titulo">Saldo em conta</h4>
                     <h4 className="titulo">Cartão Nubank</h4>
                     <div>
