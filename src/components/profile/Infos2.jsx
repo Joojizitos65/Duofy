@@ -53,7 +53,7 @@ export default function Infos2({ Img, Nome, SaldoD, SaldoV }) {
                 </li>
             </div>
             <div className="servico">
-                <h3 className="">Histórico de transações</h3>
+                <h3 className="ser">Histórico de transações</h3>
                 <h3 className="mais">Ver mais</h3>
             </div>
             <div className="transacao">

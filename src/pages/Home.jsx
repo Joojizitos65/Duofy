@@ -33,7 +33,7 @@ function Home() {
         </div>
         <div className="fy">
           <h1 className="Title">Escolhidos para você</h1>
-          <div className="container-produtos">
+          <div className="home_container-produtos">
             <Produto />
             <Produto />
             <Produto />

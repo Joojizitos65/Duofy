@@ -8,7 +8,7 @@ function Pedido({imagem, nome, avaliacao, descricao}){
     }
 
     return(
-        <div className="produto">
+        <div className="historico_produto">
             <h1>{nome}</h1>
             <img src={imagem}></img>
             <p>{avaliacao}</p>

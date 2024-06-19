@@ -18,21 +18,21 @@ function Carousel( {img1, img2 , img3}) {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                class="d-block"
+                class="d-blockw-100"
                 alt="Carousel Bootstrap First"
                 src={img1}
               />
             </div>
             <div class="carousel-item">
               <img
-                class="d-block "
+                class="d-blockw-100 "
                 alt="Carousel Bootstrap Third"
                 src={img2}
               />
             </div>
             <div class="carousel-item">
               <img
-                class="d-block"
+                class="d-blockw-100"
                 alt="Carousel Bootstrap Third"
                 src={img3}
               />

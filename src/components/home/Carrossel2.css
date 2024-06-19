@@ -9,11 +9,19 @@
 .d-blockw-100{
     width: 99vw;
 }
-.carousel-item active{
+.carousel-item.active{
+    opacity: 1;
+}
+.carousel-inner{
     opacity: 1;
 }
 
 @media screen and (max-width:600px){
+    .carousel-inner{
+        display: flex;
+        margin-left: 60px;
+        
+    }
     .swiperImg{
         width:70px;
         
@@ -27,9 +35,10 @@
     }
    .carousel-item active{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
    }
    .carousel-indicators{
+    justify-content: flex-end;
     bottom: 2px;
     display: flex;
     align-items: center;
